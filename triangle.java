@@ -17,7 +17,7 @@ public class triangle {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter height of triangle: ");
         int num = scn.nextInt();
-        triangle(num);
+        drawTriangle(num);
         scn.close();
     }
 }
